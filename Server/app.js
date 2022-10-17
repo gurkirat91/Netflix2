@@ -4,7 +4,7 @@ const mongoose= require("mongoose");
 const session=require("express-session");
 const passport=require("passport");
 const passportLocalMongoose=require("passport-local-mongoose");
-var i =1;
+//comment.....
 console.log("hello");
 const app=express();
 app.use(bodyParser.urlencoded({extended:true}));
